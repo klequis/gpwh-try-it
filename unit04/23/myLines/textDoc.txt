@@ -1,0 +1,3 @@
+﻿This is a text file
+It has two new lines
+And three lines total

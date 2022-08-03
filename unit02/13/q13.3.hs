@@ -1,0 +1,8 @@
+-- cycleSucc :: (Bounded a, Enum a, ? a) => a -> a
+-- cycleSucc n = ?
+
+
+cycleSucc :: (Bounded a, Enum a, Eq a) => a -> a
+cycleSucc n = if n == maxBound
+              then minBound
+              else succ n

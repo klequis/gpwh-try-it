@@ -1,0 +1,1 @@
+data Number = One | Two | Three deriving Enum
